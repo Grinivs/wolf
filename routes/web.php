@@ -36,8 +36,8 @@ Route::get('config', function () {
 Route::get('contact', function () {
 	return view('contact');
 });
-Route::get('/chart', function () {
-	return view('/resources/views/chart');
+Route::get('chart', function () {
+	return view('chart');
 });
 Route::get('post', function () {
 	return view('post');
