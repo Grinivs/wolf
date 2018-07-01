@@ -37,7 +37,7 @@ Route::get('contact', function () {
 	return view('contact');
 });
 Route::get('chart', function () {
-	return view('chart');
+	return view('/resources/views/chart');
 });
 Route::get('post', function () {
 	return view('post');
