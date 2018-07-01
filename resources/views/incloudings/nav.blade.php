@@ -18,7 +18,7 @@
                             </div>
                             <!-- Top Login & Faq & Earn Monery btn -->
                             <div class="login-faq-earn-money">
-                                <a href="signin">Login</a>
+                                <a href="signin.blade.php">Login</a>
                                 <a href="#">FAQ</a>
                             </div>
                         </div>
