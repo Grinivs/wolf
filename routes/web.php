@@ -28,7 +28,7 @@ Route::get('post/{slug}', function($slug){
 });
 
 Route::get('shop', function () {
-    return view('/shop');
+    return view('shop');
 });
 Route::get('config', function () {
     return view('config.php');
@@ -37,7 +37,7 @@ Route::get('contact', function () {
 	return view('contact');
 });
 Route::get('chart', function () {
-	return view('/chart');
+	return view('chart');
 });
 Route::get('post', function () {
 	return view('post');
