@@ -28,7 +28,7 @@ Route::get('post/{slug}', function($slug){
 });
 
 Route::get('shop', function () {
-    return view('shop');
+    return view('welcome');
 });
 Route::get('config', function () {
     return view('config.php');
