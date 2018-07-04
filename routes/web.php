@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome', compact('posts'));
 });
 
-Route::get('shop', function () {
+Route::get('home2', function () {
 	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('welcome', compact('posts'));
 });
