@@ -41,7 +41,7 @@
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                                  data-key="<?php echo $stripe['publishable_key']; ?>"
+                                                  data-key=""
                                                   data-description="Bitcoin"
                                                   data-name="Buycoins.ch"
                                                   data-shipping-address="true"
