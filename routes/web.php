@@ -24,6 +24,14 @@ Route::get('chart', function () {
 	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('chart', compact('posts'));
 });
+Route::get('shop', function () {
+	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
+    return view('shop', compact('posts'));
+});
+Route::get('contact', function () {
+	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
+    return view('contact', compact('posts'));
+});
 
 
 Route::get('post/{slug}', function($slug){
@@ -35,9 +43,7 @@ Route::get('post/{slug}', function($slug){
 Route::get('config', function () {
     return view('config.php');
 });
-Route::get('contact', function () {
-	return view('contact');
-});
+
 
 Route::get('post', function () {
 	return view('post');
