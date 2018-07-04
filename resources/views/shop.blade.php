@@ -1,6 +1,5 @@
 @extends('layouts.layout')
 @section('content')
-
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -42,7 +41,7 @@
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                                  data-key=""
+                                                  data-key="<?php echo "test" ?>"
                                                   data-description="Bitcoin"
                                                   data-name="Buycoins.ch"
                                                   data-shipping-address="true"
