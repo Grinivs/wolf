@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @section('content')
+<?php require_once(__DIR__.'/../public/config.php'); ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -41,13 +42,13 @@
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                         <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                                  data-key="<?php echo $stripe['publishable_key'] ?>"
-                                                  data-description="Bitcoin"
-                                                  data-name="Buycoins.ch"
-                                                  data-shipping-address="true"
-                                                  data-locale="auto"
-                                                  data-currency="chf">
-                                                </script>
+                         data-key=""
+                         data-description="Litecoin"
+                         data-name="Buycoins.ch"
+                         data-shipping-address="true"
+                         data-locale="auto"
+                         data-currency="chf">
+                       </script>
                     </div>
                     </form>
                 </div>
