@@ -16,7 +16,7 @@ Route::get('/', function () {
     return view('welcome', compact('posts'));
 });
 
-Route::get('home', function () {
+Route::get('shop', function () {
 	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('welcome', compact('posts'));
 });
@@ -28,7 +28,7 @@ Route::get('post/{slug}', function($slug){
 });
 
 Route::get('shop', function () {
-    return view('welcome');
+    return view('shop');
 });
 Route::get('config', function () {
     return view('config.php');
@@ -37,7 +37,7 @@ Route::get('contact', function () {
 	return view('contact');
 });
 Route::get('chart', function () {
-	return view('chart');
+	return view('/resources/views/chart');
 });
 Route::get('post', function () {
 	return view('post');
