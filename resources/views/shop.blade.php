@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 @section('content')
+<?php require_once(''); ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
