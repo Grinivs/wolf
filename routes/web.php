@@ -18,6 +18,10 @@ Route::get('/', function () {
 
 Route::get('home', function () {
 	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
+    return view('welcome', compact('posts'));
+});
+Route::get('chart', function () {
+	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('chart', compact('posts'));
 });
 
@@ -27,18 +31,14 @@ Route::get('post/{slug}', function($slug){
 	return view('post', compact('post'));
 });
 
-Route::get('shop', function () {
-    return view('shop');
-});
+
 Route::get('config', function () {
     return view('config.php');
 });
 Route::get('contact', function () {
 	return view('contact');
 });
-Route::get('chart', function () {
-	return view('/resources/views/chart');
-});
+
 Route::get('post', function () {
 	return view('post');
 });
