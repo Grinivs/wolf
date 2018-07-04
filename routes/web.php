@@ -21,6 +21,7 @@ Route::get('home', function () {
     return view('welcome', compact('posts'));
 });
 Route::get('chart', function () {
+	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('chart', compact('posts'));
 });
 
