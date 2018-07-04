@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-<?php require_once('C:\xampp\htdocs\buycoins\public\config.php'); ?>
+<?php require_once('public\config.php'); ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -12,7 +12,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
@@ -91,7 +91,7 @@
                     </div>
                     </form>
                 </div>
-                
+
  <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
                     <form action="charge.php" method="post">
