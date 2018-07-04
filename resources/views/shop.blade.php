@@ -20,19 +20,27 @@
                         <img src="img/bitcoin.png" style="max-width: 120px;"><br><br>
                         <h3>Bitcoin - BTC</h3>
                         <div>
-
+                          <script type="text/javascript">
+                                                      baseUrl = "https://widgets.cryptocompare.com/";
+                                                      var scripts = document.getElementsByTagName("script");
+                                                      var embedder = scripts[ scripts.length - 1 ];
+                                                      var cccTheme = {"General":{"background":""},"Currency":{"color":"#000"},"Menu":{"background":""}};
+                                                      (function (){
+                                                      var appName = encodeURIComponent(window.location.hostname);
+                                                      if(appName==""){appName="local";}
+                                                      var s = document.createElement("script");
+                                                      s.type = "text/javascript";
+                                                      s.async = true;
+                                                      var theUrl = baseUrl+'serve/v2/coin/header?fsyms=BTC&tsyms=CHF';
+                                                      s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                                      embedder.parentNode.appendChild(s);
+                                                      })();
+                                                      </script>
                         </div>
                         <br>
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
-                        <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                         data-key="<?php echo $stripe['publishable_key']; ?>"
-                         data-description="Bitcoin"
-                         data-name="Buycoins.ch"
-                         data-shipping-address="true"
-                         data-locale="auto"
-                         data-currency="chf">
-                       </script>
+
                     </div>
                     </form>
                 </div>
