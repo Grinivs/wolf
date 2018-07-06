@@ -32,6 +32,9 @@ Route::get('contact', function () {
 	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
     return view('contact', compact('posts'));
 });
+Route::get('countdown', function () {
+	return view('countdown.index');
+});
 
 
 Route::get('post/{slug}', function($slug){
