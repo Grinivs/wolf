@@ -255,7 +255,7 @@ embedder.parentNode.appendChild(s);
 })();
 </script>
 
-                        </div>
+</div></div>
 
                         <!-- Single Price Table -->
                         <div class="single-price-table d-flex align-items-center justify-content-between">
