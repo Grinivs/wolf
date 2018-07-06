@@ -33,7 +33,7 @@ Route::get('contact', function () {
     return view('contact', compact('posts'));
 });
 Route::get('countdown', function () {
-	return view('countdown/index');
+	return view('countdown/index.html');
 });
 
 
