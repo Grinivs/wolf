@@ -58,7 +58,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
@@ -237,17 +237,24 @@
 
                         <!-- Single Price Table -->
                         <div class="single-price-table d-flex align-items-center justify-content-between">
-                            <div class="p-content d-flex align-items-center">
-                                <span>01</span>
-                                <img src="img/bg-img/bitcoin.png" alt="">
-                                <p>Bitcoin <span>BTC</span></p>
-                            </div>
-                            <div class="price increase">
-                                <p>$12 456.78</p>
-                            </div>
+                          <script type="text/javascript">
+                          baseUrl = "https://widgets.cryptocompare.com/";
+                          var scripts = document.getElementsByTagName("script");
+                          var embedder = scripts[ scripts.length - 1 ];
+                          (function (){
+                          var appName = encodeURIComponent(window.location.hostname);
+                          if(appName==""){appName="local";}
+                          var s = document.createElement("script");
+                          s.type = "text/javascript";
+                          s.async = true;
+                          var theUrl = baseUrl+'serve/v1/coin/multi?fsyms=BTC,ETH,LTC,TRON,XVG,XMR&tsyms=CHF,EUR,USD';
+                          s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                          embedder.parentNode.appendChild(s);
+                          })();
+                          </script>
                         </div>
 
-                        <!-- Single Price Table -->
+                        <!--
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>02</span>
@@ -259,7 +266,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>03</span>
@@ -271,7 +278,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>04</span>
@@ -283,7 +290,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>05</span>
@@ -295,7 +302,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>06</span>
@@ -307,7 +314,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>07</span>
@@ -319,7 +326,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>08</span>
@@ -331,7 +338,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>09</span>
@@ -343,7 +350,7 @@
                             </div>
                         </div>
 
-                        <!-- Single Price Table -->
+
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                                 <span>10</span>
@@ -353,13 +360,13 @@
                             <div class="price increase">
                                 <p>$3.55</p>
                             </div>
-                        </div>
+                        </div>-->
 
                     </div>
                 </div>
             </div>
         </div>
-        
+
         <!-- Newsletter Area -->
         <div class="container">
             <div class="row">
