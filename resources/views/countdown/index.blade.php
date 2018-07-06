@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12"><br><br>
-		<img src="img/white_logo_transparent_background.png" style="max-width: 400px;"><br><br><br><br>
+		<img src="img/white_logo_transparent_background.png" style="max-width: 350px;"><br><br><br><br>
           <h2 class="subtitle">Wir arbeiten daran die Webseite aufzubauen. Der Launch der Webseite ist in</h2>
           <div id="countdown"></div>
          <br>
