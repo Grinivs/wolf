@@ -237,7 +237,7 @@
 
                         <!-- Single Price Table -->
                         <div class="single-price-table d-flex align-items-center justify-content-between">
-                            <div class="p-content d-flex align-items-center">
+                            
                               <script type="text/javascript">
                                 baseUrl = "https://widgets.cryptocompare.com/";
                                 var scripts = document.getElementsByTagName("script");
@@ -254,7 +254,7 @@
                                 embedder.parentNode.appendChild(s);
                                 })();
                               </script>
-                            </div>
+
                           </div>
 
                           <!-- Single Price Table -->
@@ -367,7 +367,7 @@
                                       </div>
                                     </div>
 
-                        
+
 
                     </div>
                 </div>
