@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
 		$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
-    return view('welcome', compact('posts'));
+    return view('countdown.index', compact('posts'));
 });
 
 Route::get('home', function () {
