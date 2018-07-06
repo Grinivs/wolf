@@ -239,49 +239,67 @@
                         <div class="single-price-table d-flex align-items-center justify-content-between">
                             <div class="p-content d-flex align-items-center">
                               <script type="text/javascript">
-baseUrl = "https://widgets.cryptocompare.com/";
-var scripts = document.getElementsByTagName("script");
-var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"General":{"background":"transparent"},"Menu":{"background":"transparent"}};
-(function (){
-var appName = encodeURIComponent(window.location.hostname);
-if(appName==""){appName="local";}
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.async = true;
-var theUrl = baseUrl+'serve/v2/coin/header?fsyms=BTC&tsyms=CHF';
-s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-embedder.parentNode.appendChild(s);
-})();
-</script>
-
-
-
-</div></div>
-
-                        <!-- Single Price Table -->
-                        <div class="single-price-table d-flex align-items-center justify-content-between">
-                            <div class="p-content d-flex align-items-center">
-                                <span>02</span>
-                                <img src="img/bg-img/ethereum.png" alt="">
-                                <p>Ethereum <span>ETH</span></p>
+                                baseUrl = "https://widgets.cryptocompare.com/";
+                                var scripts = document.getElementsByTagName("script");
+                                var embedder = scripts[ scripts.length - 1 ];
+                                var cccTheme = {"General":{"background":"transparent"},"Currency":{"color":"#000"},"Menu":{"background":"transparent"}};
+                                (function (){
+                                var appName = encodeURIComponent(window.location.hostname);
+                                if(appName==""){appName="local";}
+                                var s = document.createElement("script");
+                                s.type = "text/javascript";
+                                s.async = true;
+                                var theUrl = baseUrl+'serve/v2/coin/header?fsyms=BTC&tsyms=CHF';
+                                s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                embedder.parentNode.appendChild(s);
+                                })();
+                              </script>
                             </div>
-                            <div class="price increase">
-                                <p>$1051.98</p>
-                            </div>
-                        </div>
+                          </div>
 
-                        <!-- Single Price Table -->
-                        <div class="single-price-table d-flex align-items-center justify-content-between">
-                            <div class="p-content d-flex align-items-center">
-                                <span>03</span>
-                                <img src="img/bg-img/bitcoin-cash.png" alt="">
-                                <p>Bitcoin Cash <span>BCH</span></p>
+                          <!-- Single Price Table -->
+                          <div class="single-price-table d-flex align-items-center justify-content-between">
+                              <div class="p-content d-flex align-items-center">
+                                <script type="text/javascript">
+                                  baseUrl = "https://widgets.cryptocompare.com/";
+                                  var scripts = document.getElementsByTagName("script");
+                                  var embedder = scripts[ scripts.length - 1 ];
+                                  var cccTheme = {"General":{"background":"transparent"},"Currency":{"color":"#000"},"Menu":{"background":"transparent"}};
+                                  (function (){
+                                  var appName = encodeURIComponent(window.location.hostname);
+                                  if(appName==""){appName="local";}
+                                  var s = document.createElement("script");
+                                  s.type = "text/javascript";
+                                  s.async = true;
+                                  var theUrl = baseUrl+'serve/v2/coin/header?fsyms=ETH&tsyms=CHF';
+                                  s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                  embedder.parentNode.appendChild(s);
+                                  })();
+                                </script>
+                              </div>
                             </div>
-                            <div class="price decrease">
-                                <p>$2256.78</p>
-                            </div>
-                        </div>
+
+                            <!-- Single Price Table -->
+                            <div class="single-price-table d-flex align-items-center justify-content-between">
+                                <div class="p-content d-flex align-items-center">
+                                  <script type="text/javascript">
+                                    baseUrl = "https://widgets.cryptocompare.com/";
+                                    var scripts = document.getElementsByTagName("script");
+                                    var embedder = scripts[ scripts.length - 1 ];
+                                    var cccTheme = {"General":{"background":"transparent"},"Currency":{"color":"#000"},"Menu":{"background":"transparent"}};
+                                    (function (){
+                                    var appName = encodeURIComponent(window.location.hostname);
+                                    if(appName==""){appName="local";}
+                                    var s = document.createElement("script");
+                                    s.type = "text/javascript";
+                                    s.async = true;
+                                    var theUrl = baseUrl+'serve/v2/coin/header?fsyms=LTC&tsyms=CHF';
+                                    s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+                                    embedder.parentNode.appendChild(s);
+                                    })();
+                                  </script>
+                                </div>
+                              </div>
 
                         <!-- Single Price Table -->
                         <div class="single-price-table d-flex align-items-center justify-content-between">
