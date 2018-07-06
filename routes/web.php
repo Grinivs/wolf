@@ -33,7 +33,8 @@ Route::get('contact', function () {
     return view('contact', compact('posts'));
 });
 Route::get('countdown', function () {
-	return view('countdown/index.html');
+	$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
+    return view('countdown.index', compact('posts'));
 });
 
 
