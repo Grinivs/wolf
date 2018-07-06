@@ -241,13 +241,14 @@
                           baseUrl = "https://widgets.cryptocompare.com/";
                           var scripts = document.getElementsByTagName("script");
                           var embedder = scripts[ scripts.length - 1 ];
+                          var cccTheme = {"Tabs":{"background":"#FFF"}};
                           (function (){
                           var appName = encodeURIComponent(window.location.hostname);
                           if(appName==""){appName="local";}
                           var s = document.createElement("script");
                           s.type = "text/javascript";
                           s.async = true;
-                          var theUrl = baseUrl+'serve/v1/coin/multi?fsyms=BTC,ETH,LTC,TRON,XVG,XMR&tsyms=CHF,EUR,USD';
+                          var theUrl = baseUrl+'serve/v1/coin/multi?fsyms=BTC,ETH,LTC,TRON,XVG,XMR&tsyms=CHF';
                           s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
                           embedder.parentNode.appendChild(s);
                           })();
