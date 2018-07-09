@@ -1,5 +1,5 @@
 <?php
-  require_once('C:\xampp\htdocs\buycoins\public\config.php');
+  require_once('public\config.php');
 
   $token  = $_POST['stripeToken'];
   $email  = $_POST['stripeEmail'];
@@ -24,7 +24,7 @@
   ));
 
   echo '<h1>Successfully charged ';
-  echo $ergebnis; 
+  echo $ergebnis;
   echo '!</h1>';
 
 ?>
