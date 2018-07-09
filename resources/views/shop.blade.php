@@ -2,9 +2,7 @@
 @section('content')
 <?php
 $path = public_path('config.php');
-function require_once($path) {
 
-};
 
 ?>
 <!-- ##### Course Area Start ##### -->
