@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-require_once('/buycoins.ch/public/config.php');
+require_once(url('config.php'));
 
 ?>
 <!-- ##### Course Area Start ##### -->
