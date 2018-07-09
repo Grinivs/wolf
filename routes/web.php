@@ -58,7 +58,6 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::group(['middleware' => 'guest'], function() {
-		$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
   Route::get('signin', [
     'uses' => 'UserController@getSignin',
     'as' => 'signin'

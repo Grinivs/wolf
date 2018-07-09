@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Validator;
 class UserController extends Controller
 {
 	public function getSignin() {
+			$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
       return view('signin');
     }
 
