@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-$path = public_path('config.php');
-echo $path
+require_once('/home/forge/buycoins.ch/public/config.php');
+
 ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
