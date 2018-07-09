@@ -2,7 +2,7 @@
 @section('content')
 <?php
 $path = public_path('config.php');
-require_once($path);
+require_once('$path');
 
 ?>
 <!-- ##### Course Area Start ##### -->
@@ -17,7 +17,7 @@ require_once($path);
                 </div>
             </div>
 
-            
+
     </div>
     <!-- ##### Course Area End ##### -->
 @endsection
