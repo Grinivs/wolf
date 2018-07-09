@@ -20,7 +20,7 @@ $path = public_path('config.php');
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
-                    <form action="charge.php" method="post">
+                    <form action="<?php $path ?>" method="post">
                     <div class="single-feature-area mb-100 text-center">
                         <img src="img/bitcoin.png" style="max-width: 120px;"><br><br>
                         <h3>Bitcoin - BTC</h3>
