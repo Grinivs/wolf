@@ -1,7 +1,9 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-require_once(url('config.php'));
+function require_once($path) {
+  $path = public_path('config.php');
+};
 
 ?>
 <!-- ##### Course Area Start ##### -->
