@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-require_once '../../public/config.php';  
+require_once __DIR__ . '/../public/config.php';  
  ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
