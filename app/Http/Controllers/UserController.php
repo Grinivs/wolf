@@ -31,6 +31,7 @@ class UserController extends Controller
     }
 
     public function getProfile() {
+			$posts = App\Post::orderBy('id', 'desc')->take(3)->get();
       return view('profile');
     }
 
