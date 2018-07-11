@@ -26,13 +26,13 @@
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
-    <script src="http://localhost/buycoins/public/js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="http://localhost/buycoins/public/js/bootstrap/popper.min.js"></script>
+    <script src="/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap js -->
-    <script src="http://localhost/buycoins/public/js/bootstrap/bootstrap.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="http://localhost/buycoins/public/js/plugins/plugins.js"></script>
+    <script src="/js/plugins/plugins.js"></script>
     <!-- Active js -->
-    <script src="http://localhost/buycoins/public/js/active.js"></script>
+    <script src="/js/active.js"></script>
 </body>
