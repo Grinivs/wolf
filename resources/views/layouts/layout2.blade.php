@@ -12,17 +12,17 @@
     <title>Buycoins - Die Cryptocurrency Plattform der Schweiz</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://localhost/buycoins/public/img/core-img/favicon.ico">
+    <link rel="icon" href="img/core-img/favicon.ico">
 
     <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="http://localhost/buycoins/public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
     @include('incloudings.nav2')
     @yield('content')
     @include('incloudings.footer2')
-    
+
 
     <!-- ##### All Javascript Script ##### -->
     <!-- jQuery-2.2.4 js -->
