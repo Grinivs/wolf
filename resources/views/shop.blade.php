@@ -16,7 +16,7 @@
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
-                    <form action="<?php require_once(); $path ?>" method="post">
+                    <form action="<?php include(); $path ?>" method="post">
                     <div class="single-feature-area mb-100 text-center">
                         <img src="img/bitcoin.png" style="max-width: 120px;"><br><br>
                         <h3>Bitcoin - BTC</h3>
