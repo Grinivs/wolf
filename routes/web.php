@@ -71,6 +71,7 @@ Route::group(['middleware' => 'guest'], function() {
 
 
  Route::get('profile', function () {
+	 $posts = App\Post::orderBy('id', 'desc')->take(3)->get();
 	return view('profile');
 });
  Route::get('profile', [
