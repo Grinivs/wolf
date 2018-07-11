@@ -10,8 +10,8 @@
                     <div class="row h-100 align-items-center">
                         <div class="col-12 col-md-7">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Mach den ersten Schritt in die <span>Crypto Welt</span></h2>
-                                <h6 data-animation="fadeInUp" data-delay="400ms">Kaufe in nur wenigen Schritten deinen ersten Coin.</h6>
+                                <h2 data-animation="fadeInUp" data-delay="800ms">Mach den ersten Schritt in die <span>Crypto Welt</span></h2>
+                                <h6 data-animation="fadeInUp" data-delay="800ms">Kaufe in nur wenigen Schritten deinen ersten Coin.</h6>
                                 <a href="login" class="btn cryptos-btn" data-animation="fadeInUp" data-delay="700ms">Jetzt kaufen</a>
                             </div>
                         </div>
