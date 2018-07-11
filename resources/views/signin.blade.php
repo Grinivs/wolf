@@ -10,13 +10,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="about-content mb-100">
-                      @if(count($errors) > 0)
-          <div class="alert alert-danger">
-            @foreach($errors->all() as $error)
-              <p>{{ $error }}</p>
-            @endforeach
-          </div>
-          @endif
+            
                         <div class="section-heading">
                             <h3>Let’s change <br><span>the world</span> together</h3>
                             <form class="login-box" method="post" action="">
