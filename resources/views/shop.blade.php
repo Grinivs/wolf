@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-require_once('/../../vendor/autoload.php');
+require_once('vendor/autoload.php');
 
 $stripe = array(
   "secret_key"      => "sk_test_yZMTGlZWW5Qn9Y4bvCPrOH7b",
