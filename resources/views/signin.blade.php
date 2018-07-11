@@ -19,7 +19,7 @@
           @endif
                         <div class="section-heading">
                             <h3>Let’s change <br><span>the world</span> together</h3>
-                            <form class="login-box" method="post" action="{{ route('signin') }}">
+                            <form class="login-box" method="post" action="">
                     <h4 class="margin-bottom-1x">Login</h4>
                     <div class="form-group input-group">
                     <input class="form-control" type="text" id="email" name="email" placeholder="Email" required>
