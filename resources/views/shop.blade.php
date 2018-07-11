@@ -1,14 +1,7 @@
 @extends('layouts.layout')
 @section('content')
 <?php
-require_once 'vendor/autoload.php';
-
-$stripe = array(
-  "secret_key"      => "sk_test_yZMTGlZWW5Qn9Y4bvCPrOH7b",
-  "publishable_key" => "pk_test_ZQ0t17oVXDQsLbXwM8K0xgJZ"
-);
-
-\Stripe\Stripe::setApiKey($stripe['secret_key']);
+require_once __DIR__ . '/../../public/config.php';  
  ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
