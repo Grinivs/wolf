@@ -1,6 +1,8 @@
 @extends('layouts.layout')
 @section('content')
-
+<?php
+require_once 'config.php';  
+ ?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -16,7 +18,7 @@
             <div class="row">
                 <!-- Single Course Area -->
                 <div class="col-12 col-md-6 col-xl-3">
-                    <form action="<?php require_once('config.php');  ?>" method="post">
+                    <form action="<?php ?>" method="post">
                     <div class="single-feature-area mb-100 text-center">
                         <img src="img/bitcoin.png" style="max-width: 120px;"><br><br>
                         <h3>Bitcoin - BTC</h3>
