@@ -42,7 +42,7 @@
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="Bitcoin"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
@@ -81,7 +81,7 @@
                         <a href="chart#C3"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="Litecoin"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
@@ -120,7 +120,7 @@
                         <a href="chart#C2"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="Ethereum"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
@@ -158,7 +158,7 @@
                         <a href="chart#C4"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="TRON"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
@@ -196,7 +196,7 @@
                         <a href="chart#C5"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="XVG"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
@@ -234,7 +234,7 @@
                         <a href="chart#C6"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key=""
+                          data-key="<?php echo $stripe['publishable_key']; ?>"
                           data-description="XMR"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
