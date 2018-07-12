@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-<?php{{ config('config.php') echo $stripe['publishable_key'];}}?>
+<?php{{ config('config.php') }}?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -42,7 +42,7 @@
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                          data-key="<?php  ?>"
+                          data-key="<?php $stripe['publishable_key']; ?>"
                           data-description="Bitcoin"
                           data-name="Buycoins.ch"
                           data-shipping-address="true"
