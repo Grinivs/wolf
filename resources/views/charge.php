@@ -1,5 +1,5 @@
 <?php
-  require_once('public\config.php');
+  {{ config('config.php')}};
 
   $token  = $_POST['stripeToken'];
   $email  = $_POST['stripeEmail'];

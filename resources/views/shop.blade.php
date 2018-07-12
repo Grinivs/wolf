@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-<?php{{ config('config.php')}}?>
+
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
@@ -39,8 +39,10 @@
                             </script>
                         </div>
                         <br>
+                        <?php{{ config('config.php')}}?>
                         <a href="chart#C1"><p>Für eine detaillierte Kursübersicht hier klicken</p></a>
                         <input type="integer" name="price"><br><br>
+                        <form action="charge.php" method="post">
                          <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                           data-key="pk_test_ZQ0t17oVXDQsLbXwM8K0xgJZ"
                           data-description="Bitcoin"
@@ -49,6 +51,7 @@
                           data-locale="auto"
                           data-currency="chf">
                         </script>
+                      </form>
                     </div>
                     </form>
                 </div>
