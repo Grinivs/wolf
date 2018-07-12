@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 @section('content')
-{{ config(config.php)}}
+<?php{{ config('config.php')}}?>
 <!-- ##### Course Area Start ##### -->
     <div class="cryptos-feature-area section-padding-100-0">
         <div class="container-fluid">
