@@ -61,7 +61,7 @@
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/jquery.countdown.min.js"></script>
   <script type="text/javascript">
-    $('#countdown').countdown('2018/07/20', function(event) {
+    $('#countdown').countdown('2018/08/20', function(event) {
       $(this).html(event.strftime('%w Wochen %d Tage <br /> %H:%M:%S'));
     });
   </script>
